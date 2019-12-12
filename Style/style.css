@@ -12,6 +12,21 @@
     }
     .send_button{
         background: #00bcd4;
+        border:0px solid #2eb9ce;
+
+        -----other style-----
+
+        text-align: center;
+        text-decoration: bold;
+        font-size: 24px;
+        border-width:0px;
+        border-style:solid;
+        border-color:#2eb9ce;
+        border-radius:50px;
+        -moz-border-radius:50px;
+        -webkit-border-radius:50px;
+        color: white;
+        padding: 15px 32px;
     }
     label{
         margin:10px 0px !important;

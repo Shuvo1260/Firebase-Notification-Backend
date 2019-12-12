@@ -4,12 +4,12 @@
     <title>Firebase Notification</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" type="text/css" href="Style/style.css"/>
   </head>
 
 
   <body>
-    <form>
+    <form method= "post" action="Services/NotificationService.php" >
       <fieldset>
         <legend>Notification::</legend>
         <label>Title</label></br>
