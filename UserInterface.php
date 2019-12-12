@@ -14,6 +14,13 @@
         <legend>Notification::</legend>
         <label>Title</label></br>
         <textarea name="title" class="title_box" placeholder="Notification title"></textarea></br></br>
+        <label>Notification type</label></br>
+        <select name="notification_type" class="title_box">
+          <option value="empty">---- Select a notification type ----</option>
+          <option value="school">School</option>
+          <option value="college">College</option>
+          <option value="university">University</option>
+        </select></br></br>
         <label>Message</label></br>
         <textarea name="message" class=" message_box" placeholder="Notification message"></textarea></br></br>
         <button type="submit" class="pure-button pure-button-primary send_button">Send</button>
