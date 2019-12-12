@@ -13,9 +13,9 @@
       <fieldset>
         <legend>Notification::</legend>
         <label>Title</label></br>
-        <input type="text" name="title" class="title_box" placeholder="Notification title"></br></br>
+        <textarea name="title" class="title_box" placeholder="Notification title"></textarea></br></br>
         <label>Message</label></br>
-        <input type="text" name="message" class="message_box" placeholder="Notification message"></br></br>
+        <textarea name="message" class=" message_box" placeholder="Notification message"></textarea></br></br>
         <button type="submit" class="pure-button pure-button-primary send_button">Send</button>
       </fieldset>
     </form>
