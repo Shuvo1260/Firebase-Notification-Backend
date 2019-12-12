@@ -2,13 +2,14 @@
     body{
     }
     div.container{
-        width: 1000px;
+        width: auto ;
         margin: 0 auto;
         position: relative;
     }
     legend{
         font-size: 30px;
-        color: #555;
+        color: #000000;
+        border-color: #00bcd4;
     }
     .send_button{
         background: #00bcd4;
@@ -28,8 +29,29 @@
         color: white;
         padding: 15px 32px;
     }
+    .title_box{
+      width: auto;
+      font-size: 16px;
+      border-radius: 10px;
+      border-color: #00bcd4;
+      padding: 15px;
+      border-width: medium;
+      line-height: normal;
+    }
+    .message_box{
+      width: auto;
+      height: 200px;
+      font-size: 16px;
+      border-radius: 10px;
+      border-color: #00bcd4;
+      padding: 15px;
+      border-width: medium;
+      display: block;
+    }
     label{
         margin:10px 0px !important;
+        font-size: 24px;
+        color: #00bcd4;
     }
     textarea{
         resize: none !important;
