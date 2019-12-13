@@ -60,7 +60,7 @@ if($topic !== 'empty'){
       <legend>Notification Report::</legend>
 
       <div>
-        <div>
+        <div align="center">
           <img src="https://1.bp.blogspot.com/-YIfQT6q8ZM4/Vzyq5z1B8HI/AAAAAAAAAAc/UmWSSMLKtKgtH7CACElUp12zXkrPK5UoACLcB/s1600/image00.png" width="200" alt="Firebase"/>
         </div>
         <br/>
