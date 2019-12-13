@@ -4,7 +4,7 @@
     div.container{
         width: inherit ;
         margin: 0 auto;
-        position: relative;
+        position: center;
     }
     legend{
         font-size: 30px;
@@ -37,8 +37,6 @@
         -webkit-border-radius:50px;
         color: white;
         padding: 15px 32px;
-        align-self: flex-end;
-        float: right;
     }
     .title_box{
       width: 100%;
@@ -73,7 +71,6 @@
     .fl_window{
         width: inherit;
         position: absolute;
-        right: 0;
         top:100px;
     }
     pre, code {
