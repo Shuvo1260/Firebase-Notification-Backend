@@ -1,5 +1,6 @@
 
     body{
+      margin: 0;
     }
     div.container{
         width: inherit ;
@@ -25,7 +26,7 @@
         border:0px solid #2eb9ce;
 
         -----other style-----
-
+        align-self: center;
         text-align: center;
         text-decoration: bold;
         font-size: 24px;

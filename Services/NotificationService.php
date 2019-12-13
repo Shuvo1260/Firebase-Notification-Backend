@@ -57,29 +57,31 @@ if($topic !== 'empty'){
 <body>
   <form method= "post" action="../UI/NotificationPage.php">
     <fieldset>
-      <legend>Notification::</legend>
-      <button type="submit" class="send_button">Reset</button>
+      <legend>Notification Report::</legend>
 
-    <div class="container">
-        <div class="fl_window">
-            <div><img src="https://1.bp.blogspot.com/-YIfQT6q8ZM4/Vzyq5z1B8HI/AAAAAAAAAAc/UmWSSMLKtKgtH7CACElUp12zXkrPK5UoACLcB/s1600/image00.png" width="200" alt="Firebase"/></div>
-            <br/>
-            <?php if ($json != '') { ?>
-                <label><b>Request:</b></label>
-                <div class="json_preview">
-                    <pre><?php echo json_encode($json) ?></pre>
-                </div>
-            <?php }else{
-              echo "Topic isn't selected.";
-            } ?>
-            <br/>
-            <?php if ($response != '') { ?>
-                <label><b>Response:</b></label>
-                <div class="json_preview">
-                    <pre><?php echo json_encode($response) ?></pre>
-                </div>
-            <?php } ?>
-
+      <div>
+        <div>
+          <img src="https://1.bp.blogspot.com/-YIfQT6q8ZM4/Vzyq5z1B8HI/AAAAAAAAAAc/UmWSSMLKtKgtH7CACElUp12zXkrPK5UoACLcB/s1600/image00.png" width="200" alt="Firebase"/>
+        </div>
+        <br/>
+        <?php if ($json != '') { ?>
+            <label><b>Request:</b></label>
+            <div class="json_preview">
+                <pre><?php echo json_encode($json) ?></pre>
+            </div>
+        <?php }else{
+          echo "Topic isn't selected.";
+        } ?>
+        <br/>
+        <?php if ($response != '') { ?>
+            <label><b>Response:</b></label>
+            <div class="json_preview">
+                <pre><?php echo json_encode($response) ?></pre>
+            </div>
+        <?php } ?>
+      </br>
+        <div align="center">
+        <button type="submit" class="send_button">Reset</button>
         </div>
     </fieldset>
   </form>
